@@ -3,8 +3,8 @@ FROM node:13-alpine
 ENV MONGO_DB_USERNAME=admin
     MONGO_DB_PWD=password
 
-RUN mkdir -p /home/app
+RUN mkdir -p /home/centos/docker
 
-COPY . /home/app
+COPY . /home/centos/docker
 
-CMD ["node","server.js"]
+CMD ["node","/home/centos/docker/app/server.js"]

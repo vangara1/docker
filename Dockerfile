@@ -1,7 +1,7 @@
 FROM node:13-alpine
 
 ENV MONGO_INITDB_ROOT_USERNAME: admin
-    MONGO_INITDB_ROOT_PASSWORD: password
+    MONGO_INITDB_ROOT_PASSWORD: everyjiklo
 
 RUN mkdir -p /home/centos/docker
 

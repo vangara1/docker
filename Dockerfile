@@ -5,6 +5,7 @@ ENV MONGO_DB_ROOT_USERNAME: admin \
 
 RUN mkdir -p /home/centos/docker
 
+
 COPY . /home/centos/docker
 
 CMD ["node","/home/centos/docker/app/server.js"]

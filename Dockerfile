@@ -9,4 +9,7 @@ COPY . /home/centos/docker
 
 
 
+
+
+
 CMD ["node","/home/centos/docker/app/server.js"]
